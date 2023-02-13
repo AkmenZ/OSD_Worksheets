@@ -1,5 +1,5 @@
 # need to use the specific version of node that is dist is built 
-FROM node:16.16.0 AS builder
+FROM node:16.13.2 AS builder
 
 WORKDIR /hello-world
 
